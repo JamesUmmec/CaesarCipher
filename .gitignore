@@ -1,0 +1,19 @@
+# configuration files or directories of commonly used IDE or editor.
+workspace.code-workspace
+/.vscode
+/.idea
+
+# configuration files or directories used when testing the app
+# those are files created by the program for app config.
+/app/.config
+
+# output exe file
+*.exe
+
+# ignore files and directories for vite framework of the frontend.
+node_modules
+package-lock.json
+.DS_Store
+dist
+dist-ssr
+*.local
